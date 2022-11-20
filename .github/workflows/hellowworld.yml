@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   sample:
-    name:helloworld
-    runs-on: ubuntu-lates
+    name: helloworld
+    runs-on: ubuntu-latest
     step:
       - run: echo "やっほ！"
